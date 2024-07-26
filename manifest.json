@@ -1,6 +1,6 @@
 {
-  "name": "AllFresh Groceries",
-  "short_name": "AllFresh",
+  "name": "AllFresh",
+  "short_name": "AFC",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",

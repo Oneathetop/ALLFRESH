@@ -1,9 +1,9 @@
 const CACHE_NAME = 'v1';
 const CACHE_ASSETS = [
-    '/',
-    '/index.html',
-    '/main.js',
-    '/manifest.json'
+    './',
+    './index.html',
+    './main.js',
+    './manifest.json'
 ];
 
 // Install event

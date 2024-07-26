@@ -1,0 +1,134 @@
+header{
+    background-color: lightyellow;
+    text-align: center;
+    font-size: medium;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+#header{
+    text-align: center;
+    width: 85%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: space-between;
+    align-items: center;
+}
+
+#logo{
+    margin-top: 10px;
+    margin-right: auto;
+    border: 5px solid #333;
+}
+
+
+.nav li{
+    align-items: normal;
+}
+
+#list{
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+
+
+footer{
+    color: #000000;
+    background-color: lightyellow;
+    text-align: center;
+    font-size: large;
+    padding: 0px;
+    
+}
+
+#box1{
+    animation-name: change-color1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change-color1{
+    from{background-color: white;} 
+    to {background-color: burlywood;}  
+}
+
+#box2{
+    animation-name: change-color2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change-color2{
+    from{background-color: white;} 
+    to {background-color: silver;}  
+}
+
+#box3{
+    animation-name: change-color3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes change-color3{
+    from{background-color: white;} 
+    to {background-color: gold;}  
+}
+#box4{
+    animation-name: change-color4;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change-color4{
+    from{background-color: white;} 
+    to {background-color: plum ;}  
+}
+
+@media(max-width:768px){
+    footer{
+        display: none;
+    }
+
+    .container{
+        display: none;
+    } 
+    #ulam , #tab1 , #tab2{
+        border-width: 80%;
+        font-size: small;
+        border-collapse: collapse;
+        max-width: 200px;
+        align-items: center;
+        padding: 18px;
+    } 
+    table{
+        font-size: small;
+        width: 150px;
+    }
+    td{
+        width: 10px;
+        text-align: left;
+    }
+    th{
+        width: 30px;
+
+    }
+    #list{
+        font-size: small;
+    }
+    .main{
+       margin-right: 0; 
+    }
+}
+
+

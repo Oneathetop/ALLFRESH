@@ -1,0 +1,21 @@
+h1{
+    flex-grow: 1;
+    margin: 0;
+    font-size: 2em;
+}
+
+p{
+    text-align: center;
+    font-size: larger;
+    color: #333;
+}
+
+
+
+#cover{
+    border: 5px solid #333;
+    border-radius: 60px;
+}
+
+
+

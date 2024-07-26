@@ -1,0 +1,88 @@
+#nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: lightblue;
+    padding: 20px;
+}
+
+#nav-item{
+    margin-right: 50px;
+}
+
+#ulam{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: large;
+    border: 5px solid #333;
+    width: 350px;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+#tab1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 350px;
+    height: auto;
+    background-color: #ffffff;
+    margin-top: 80px;
+    border: 5px solid #333;
+}
+
+table{
+    width: 400px;
+    height: auto;
+}
+
+tbody{
+    text-align: center;
+}
+
+th{
+    height: 50px;
+}
+
+td{
+    height: 50px;
+}
+
+tr{
+    margin-bottom: 10px;
+}
+
+#tab2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: large;
+    width: 350px;
+    height: auto;
+    background-color: #ffff;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+#new{
+    margin-bottom: 10px;
+}
+
+#amount{
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+
+

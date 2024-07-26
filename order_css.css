@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.section {
+  margin-bottom: 20px;
+}
+.section h2 {
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+.total-row {
+  font-weight: bold;
+}
+.button-group {
+  margin-top: 20px;
+}
+#nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  background-color: lightblue;
+  padding: 20px;
+  font-size: large;
+}
+
+#nav-item{
+  margin-right: 50px;
+}
+
+h1{
+  text-align: center;
+}
+
+
+
+:root {
+  --background-color: antiquewhite; 
+}
+
+table{
+  background-color: var(--background-color); 
+}

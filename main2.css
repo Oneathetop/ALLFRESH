@@ -1,0 +1,29 @@
+#nav{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: lightblue;
+    padding: 20px;
+
+}
+
+#nav-item{
+margin-right: 30px;
+}
+
+
+main{
+align-items: center;
+padding: 15px;
+}
+
+
+
+#h1{
+    text-align: center;
+    padding: 15px;
+    
+    
+}

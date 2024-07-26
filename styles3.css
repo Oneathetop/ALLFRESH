@@ -1,0 +1,157 @@
+header{
+    background-color:lightyellow;
+    padding: 0px;
+    text-align: center;
+    font-size: larger;
+}
+
+#head{
+    width: 85%;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: space-between;
+    align-items: center;
+}
+
+#logo{
+    margin-top: 10px;
+    margin-right: auto;
+    border: 5px solid #333;
+}
+
+.nav li{
+    align-items: normal;
+}
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto auto auto auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.img1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 150px;
+    height: auto;
+    
+}
+
+.img2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+    width: 150px;
+    height: auto;
+}
+
+.img3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+    width: 150px;
+    height: auto;
+
+}
+
+.img4{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    
+    width: 150px;
+    height: auto;
+}
+
+.img5{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    
+    width: 150px;
+    height: auto;
+}
+.img6{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    
+    width: 150px;
+    height: auto;
+}
+.img7{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    
+    width: 150px;
+    height: auto;
+}
+.img8{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    
+    width: 150px;
+    height: auto;
+
+}.img9{
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+    width: 150px;
+    height: auto;
+}
+.img10{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    
+    width: 150px;
+    height: auto;
+}
+
+.img11{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    
+    width: 150px;
+    height: auto;
+}
+
+.img12{
+    grid-column: 4/5;
+    grid-row: 3/4;
+
+    width: 150px;
+    height: auto;
+}
+
+
+
+footer{
+    color: #000000;
+    background-color: lightyellow;
+    text-align: center;
+    font-size: medium;
+    padding: 0px;
+    
+}
+
+@media(max-width:768px){
+    .container{
+        display: none;
+    }
+    .grid-container{
+        display: block ;
+    }
+    footer{
+        width: auto;
+    }
+}

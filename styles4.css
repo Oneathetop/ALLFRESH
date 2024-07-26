@@ -1,0 +1,66 @@
+header{
+    background-color: lightyellow;
+    text-align: center;
+  
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: space-between;
+    align-items: center;
+}
+
+#head{
+    width: 85%;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+
+
+#logo{
+    margin-top: 10px;
+    margin-left: 15px;
+    border: 5px solid #333;
+}
+
+table{
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+th{
+    font-size: large;
+}
+
+tr{
+    width: 100%;
+}
+
+td{
+    text-align: center;
+}
+
+footer{
+    color: #000000;
+    background-color: lightyellow;
+    text-align: center;
+    font-size: medium;
+    padding: 0px;
+  
+    
+}
+
+@media(max-width:768px){
+    #img{
+      display: none;
+    }
+    table{
+      width: 100%;
+    }
+
+  }

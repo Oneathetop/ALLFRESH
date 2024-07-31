@@ -7,12 +7,19 @@ document.addEventListener('DOMContentLoaded', () => {
   const applyFavouritesButton = document.getElementById('apply-favourites');
   const buyNowButton = document.getElementById('buy-now');
 
+  // Check if elements exist
+  console.log('addToCartButton:', addToCartButton);
+  console.log('addToFavouritesButton:', addToFavouritesButton);
+  console.log('applyFavouritesButton:', applyFavouritesButton);
+  console.log('buyNowButton:', buyNowButton);
+
   addToCartButton.addEventListener('click', addToCart);
   addToFavouritesButton.addEventListener('click', saveToFavourites);
   applyFavouritesButton.addEventListener('click', applyFavourites);
   buyNowButton.addEventListener('click', proceedToCheckout);
 
   function addToCart() {
+      console.log('Add to Cart button clicked');
       cartItems.length = 0;
       cartTable.innerHTML = '';
 
@@ -47,10 +54,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function saveToFavourites() {
+      console.log('Add to Favourites button clicked');
       localStorage.setItem('favourites', JSON.stringify(cartItems));
   }
 
   function applyFavourites() {
+      console.log('Apply Favourites button clicked');
       const favourites = JSON.parse(localStorage.getItem('favourites'));
       if (favourites) {
           favourites.forEach(item => {
@@ -67,6 +76,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function proceedToCheckout() {
+      console.log('Buy Now button clicked');
       if (cartItems.length === 0) {
           alert('Add items to your cart before proceeding to checkout.');
           return;
@@ -81,5 +91,3 @@ document.addEventListener('DOMContentLoaded', () => {
       window.location.href = 'checkout.html';
   }
 });
-
-

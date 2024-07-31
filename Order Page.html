@@ -21,292 +21,222 @@
         </a>
         <h1 id="h1"> Welcome to ALLFRESH </h1>
     </header>
-        <nav>
-            <ul id="nav">
-                <li id="nav-item"><a href="./index.html">Home</a></li>
-                <li id="nav-item"><a href="./About Us.html">About us</a></li>
-                <li id="nav-item"><a href="./Dairy Products.html">Dairy Products</a></li>
-                <li id="nav-item"><a href="./Vegetables.html">Vegetables</a></li>
-                <li id="nav-item"><a href="./Cosmetics and Skincare products.html">Cosmetic Skincare Products</a></li>
-                <li id="nav-item"><a href="./Order Page.html">Order Page</a></li>
-                <li id="nav-item"><a href="./checkout.html">Checkout Page</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <ul id="nav">
+            <li id="nav-item"><a href="./index.html">Home</a></li>
+            <li id="nav-item"><a href="./About Us.html">About us</a></li>
+            <li id="nav-item"><a href="./Dairy Products.html">Dairy Products</a></li>
+            <li id="nav-item"><a href="./Vegetables.html">Vegetables</a></li>
+            <li id="nav-item"><a href="./Cosmetics and Skincare products.html">Cosmetic Skincare Products</a></li>
+            <li id="nav-item"><a href="./Order Page.html">Order Page</a></li>
+            <li id="nav-item"><a href="./checkout.html">Checkout Page</a></li>
+        </ul>
+    </nav>
     
     <div class="section" id="fruits">
-    <table> 
-        <th colspan="2">Fruits</th>
-        <tr>
-        <td>
-        
-            <label> Apple ($3/kg) </label>
-            <input type="number" name="appleQty" min="0" step="0.1" placeholder="Kg">
-        
-        </td>
-
-        <td>
-        
-            <label> Berry ($5/kg) </label>
-            <input type="number" name="berryQty" min="0" step="0.1" placeholder="Kg">
-        
-        </td>
-        </tr>
-        <tr>
-        <td>
-        
-            <label> Orange ($7/kg) </label>
-            <input type="number" name="orangeQty" min="0" step="0.1" placeholder="Kg">
-        
-        </td>
-    
-        <td>
-        
-            <label> Melon ($9/kg) </label>
-            <input type="number" name="melonQty" min="0" step="0.1" placeholder="Kg">
-        
-        </td>
-        </tr>
-        <tr>
-        <td>
-        
-            <label> Pears ($10/kg) </label>
-            <input type="number" name="pearQty" min="0" step="0.1" placeholder="Kg">
-        
-        </td>
-        
-        <td>
-        
-                <label> Grapes ($5/kg) </label>
-                <input type="number" name="grapeQty" min="0" step="0.1" placeholder="Kg">
-        
-        </td>
-        </tr>
-    </table>
+        <table> 
+            <thead>
+                <tr>
+                    <th colspan="2">Fruits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="appleQty">Apple ($3/kg)</label>
+                        <input type="number" id="appleQty" name="appleQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                    <td>
+                        <label for="berryQty">Berry ($5/kg)</label>
+                        <input type="number" id="berryQty" name="berryQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="orangeQty">Orange ($7/kg)</label>
+                        <input type="number" id="orangeQty" name="orangeQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                    <td>
+                        <label for="melonQty">Melon ($9/kg)</label>
+                        <input type="number" id="melonQty" name="melonQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pearQty">Pears ($10/kg)</label>
+                        <input type="number" id="pearQty" name="pearQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                    <td>
+                        <label for="grapeQty">Grapes ($5/kg)</label>
+                        <input type="number" id="grapeQty" name="grapeQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
     <div class="section" id="vegetables">
-    <table>
-        <th colspan="2">Vegetables</th>
-        <tr>
-        <td>
-            
-                <label> Carrot ($2/kg) </label>
-                <input type="number" name="carrotQty" min="0" step="0.1" placeholder="Kg">
-            
-        </td>
-        <td>
-            
-                <label> Beet ($6/kg) </label>
-                <input type="number" name="beetQty" min="0" step="0.1" placeholder="Kg">
-            
-        </td>
-        </tr>
-        <tr>
-        <td>
-            
-                <label> Brinjal ($12/kg) </label>
-                <input type="number" name="brinjalQty" min="0" step="0.1" placeholder="Kg">
-            
-        </td>
-        <td>
-            
-                <label> Pumpkin ($10/kg) </label>
-                <input type="number" name="pumpkinQty" min="0" step="0.1" placeholder="Kg">
-            
-        </td>
-        </tr>
-        <tr>
-        <td>    
-            
-                <label> Pepper ($9/kg) </label>
-                <input type="number" name="pepperQty" min="0" step="0.1" placeholder="Kg">
-            
-        </td>
-        <td>
-            
-                <label> Radish ($20/kg) </label>
-                <input type="number" name="radishQty" min="0" step="0.1" placeholder="Kg">
-            
-        </td>
-        </tr>
-    
-    </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Vegetables</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="carrotQty">Carrot ($2/kg)</label>
+                        <input type="number" id="carrotQty" name="carrotQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                    <td>
+                        <label for="beetQty">Beet ($6/kg)</label>
+                        <input type="number" id="beetQty" name="beetQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="brinjalQty">Brinjal ($12/kg)</label>
+                        <input type="number" id="brinjalQty" name="brinjalQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                    <td>
+                        <label for="pumpkinQty">Pumpkin ($10/kg)</label>
+                        <input type="number" id="pumpkinQty" name="pumpkinQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pepperQty">Pepper ($9/kg)</label>
+                        <input type="number" id="pepperQty" name="pepperQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                    <td>
+                        <label for="radishQty">Radish ($20/kg)</label>
+                        <input type="number" id="radishQty" name="radishQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
     <div class="section" id="dairy">
-    <table>
-        <th colspan="2">Dairy Products</th>
-        <tr>
-         <td>   
-        
-            <label> Milk ($1.5 each) </label>
-            <input type="number" name="milkQty" min="0" step="1" placeholder="Qty">
-        
-         </td>   
-         <td>   
-        
-            <label> Cheese ($15 each) </label>
-            <input type="number" name="cheeseQty" min="0" step="1" placeholder="Qty">
-        
-        </td>  
-        </tr>
-        <tr>
-        <td>
-        
-            <label> Milk Powder ($10 each) </label>
-            <input type="number" name="powderQty" min="0" step="1" placeholder="Qty">
-        
-        </td>
-        <td>
-        
-            <label> Margarene ($25 each) </label>
-            <input type="number" name="margareneQty" min="0" step="1" placeholder="Qty">
-        
-        </td>    
-        </tr>
-        <tr>
-        <td>        
-        
-            <label> Ice-Cream ($35 each) </label>
-            <input type="number" name="creamQty" min="0" step="1" placeholder="Qty">
-        
-        </td>    
-        <td>    
-        
-            <label> Butter ($5 each) </label>
-            <input type="number" name="butterQty" min="0" step="1" placeholder="Qty">
-        
-        </td>    
-        </tr>
-    </table>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Dairy Products</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="milkQty">Milk ($1.5 each)</label>
+                        <input type="number" id="milkQty" name="milkQty" min="0" step="1" placeholder="Qty">
+                    </td>
+                    <td>
+                        <label for="cheeseQty">Cheese ($15 each)</label>
+                        <input type="number" id="cheeseQty" name="cheeseQty" min="0" step="1" placeholder="Qty">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="powderQty">Milk Powder ($10 each)</label>
+                        <input type="number" id="powderQty" name="powderQty" min="0" step="1" placeholder="Qty">
+                    </td>
+                    <td>
+                        <label for="margareneQty">Margarene ($25 each)</label>
+                        <input type="number" id="margareneQty" name="margareneQty" min="0" step="1" placeholder="Qty">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="creamQty">Ice-Cream ($35 each)</label>
+                        <input type="number" id="creamQty" name="creamQty" min="0" step="1" placeholder="Qty">
+                    </td>
+                    <td>
+                        <label for="butterQty">Butter ($5 each)</label>
+                        <input type="number" id="butterQty" name="butterQty" min="0" step="1" placeholder="Qty">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
     <div class="section" id="meat-seafood">
-    <table>
-        <th colspan="2">Meat and Seafood</th>
-        <tr>
-         <td>   
-        
-            <label> Chicken ($75/kg) </label>
-            <input type="number" name="chickenQty" min="0" step="0.1" placeholder="Kg">
-        
-         </td>   
-         <td>   
-        
-            <label> Fish ($85/kg) </label>
-            <input type="number" name="fishQty" min="0" step="0.1" placeholder="Kg">
-        
-         </td>   
-        </tr>
-        <tr>
-        <td>    
-        
-            <label> Squid ($450/kg) </label>
-            <input type="number" name="squidQty" min="0" step="0.1" placeholder="Kg">
-        
-        </td>    
-        <td>    
-        
-            <label> Tuna ($150/kg) </label>
-            <input type="number" name="tunaQty" min="0" step="0.1" placeholder="Kg">
-        
-        </td>   
-        </tr>
-        <tr>
-        <td>    
-        
-            <label> Salmon ($100/kg) </label>
-            <input type="number" name="salmonQty" min="0" step="0.1" placeholder="Kg">
-        
-         </td>   
-         <td>   
-        
-            <label> Crab ($250/kg) </label>
-            <input type="number" name="crabQty" min="0" step="0.1" placeholder="Kg">
-        
-        </td> 
-        </tr>
-    </table>
-
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Meat and Seafood</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="chickenQty">Chicken ($75/kg)</label>
+                        <input type="number" id="chickenQty" name="chickenQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                    <td>
+                        <label for="fishQty">Fish ($85/kg)</label>
+                        <input type="number" id="fishQty" name="fishQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="squidQty">Squid ($450/kg)</label>
+                        <input type="number" id="squidQty" name="squidQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                    <td>
+                        <label for="tunaQty">Tuna ($150/kg)</label>
+                        <input type="number" id="tunaQty" name="tunaQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="salmonQty">Salmon ($100/kg)</label>
+                        <input type="number" id="salmonQty" name="salmonQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                    <td>
+                        <label for="crabQty">Crab ($250/kg)</label>
+                        <input type="number" id="crabQty" name="crabQty" min="0" step="0.1" placeholder="Kg">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
     <div class="section" id="baking">
-    <table>
-        <th colspan="2">Baking and Cooking Ingredients</th>
-        <tr>
-        <td>    
-        
-            <label> Flour ($130 each) </label>
-            <input type="number" name="flourQty" min="0" step="1" placeholder="Qty">
-        
-        </td>    
-        <td>   
-        
-            <label> Yeast ($150 each) </label>
-            <input type="number" name="yeastQty" min="0" step="1" placeholder="Qty">
-        
-        </td>    
-        </tr>
-        <tr>
-        <td>    
-        
-            <label> Sugar ($200 each) </label>
-            <input type="number" name="sugarQty" min="0" step="1" placeholder="Qty">
-        
-        </td>    
-        <td>    
-        
-            <label> Salt ($11 each) </label>
-            <input type="number" name="saltQty" min="0" step="1" placeholder="Qty">
-        
-        </td>    
-        </tr>
-        <tr>
-        <td>        
-        
-            <label> Colouring ($7 each) </label>
-            <input type="number" name="colourQty" min="0" step="1" placeholder="Qty">
-        
-        </td>    
-        <td>    
-        
-            <label> Baking Soda ($10 each) </label>
-            <input type="number" name="sodaQty" min="0" step="1" placeholder="Qty">
-        
-        </td>    
-        </tr>
-    </table>
-    </div>
-
-    <button id="add-to-cart">Add to Cart</button>
-    <button id="add-to-favourites">Add to Favourites</button>
-    <button id="apply-favourites">Apply Favourites</button>
-
-    <table id="JS">
-        <thead>
-            <tr>
-                <th>Item</th>
-                <th>Quantity</th>
-                <th>Price</th>
-            </tr>
-        </thead>
-        <tbody id="cart-items">
-            
-        </tbody>
-        <tfoot>
-            <tr class="total-row">
-                <td colspan="2">Total</td>
-                <td id="total-price">$0.00</td>
-            </tr>
-        </tfoot>
-    </table>
-<br>
-    <button id="buy-now">Buy Now</button>
-    <script src="./script2.js"></script>
-<br>
-    <footer>
-        <p>Contact us +94752345657</p>
-        <p>&copy;2024 ALLFRESH official website</p>
-    </footer>
-</body>
-</html>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="2">Baking and Cooking Ingredients</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="flourQty">Flour ($130 each)</label>
+                        <input type="number" id="flourQty" name="flourQty" min="0" step="1" placeholder="Qty">
+                    </td>
+                    <td>
+                        <label for="yeastQty">Yeast ($150 each)</label>
+                        <input type="number" id="yeastQty" name="yeastQty" min="0" step="1" placeholder="Qty">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sugarQty">Sugar ($200 each)</label>
+                        <input type="number" id="sugarQty" name="sugarQty" min="0" step="1" placeholder="Qty">
+                    </td>
+                    <td>
+                        <label for="saltQty">Salt ($11 each)</label>
+                        <input type="number" id="saltQty" name="saltQty" min="0" step="1" placeholder="Qty">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="colourQty">Colouring ($7 each)</label>
+                        <input type="number" id="colourQty" name="colourQty" min="0" step="1" placeholder="Qty">
+                    </td>
+                    <td>
+                        <label for="sodaQty">Baking Soda ($10 each)</label>
+                        <input type="number" id="sodaQty" name="sodaQty" min="0" step="1" placeholder="Qty">
+                    </td>
+                </tr>
+            </tbody

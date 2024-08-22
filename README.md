@@ -1,1 +1,1 @@
-This is my website.
+This is the website of ALLFRESH Groceries Supermarket with PWA
